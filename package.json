@@ -1,0 +1,14 @@
+{
+  "name": "workbench-mini",
+  "version": "1.0.0",
+  "description": "A minimal Claude-Code-style agent workbench for local LLMs (LM Studio, Ollama, llama.cpp — any OpenAI-compatible server)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "ws": "^8.18.0"
+  }
+}

@@ -1,0 +1,3 @@
+workbench-mini → http://localhost:4600
+backend:   http://localhost:1234/v1 (LM Studio default)
+workspace: C:\Data\Tools\workbench-mini\sandbox

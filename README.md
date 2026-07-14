@@ -1,6 +1,8 @@
-# workbench-mini
+# LMStudioWorkBench (workbench-mini)
 
 A minimal **Claude-Code-style agent workbench for local LLMs** — the model proposes tool calls, they execute inside a workspace jail, and writes/commands stop for your approval. Vanilla JS, two dependencies (`express`, `ws`), ~450 lines.
+
+> This is the trimmed tutorial version of my full agentic workbench (which adds Skills, MCP servers, sessions, stats, multiple workspaces, and presets). The code here was built with Claude (Fable 5) in the Claude Code terminal, then live-tested against LM Studio.
 
 Companion repo for the article **[Your Local LLM Can Use Tools Too](https://medium.com/@ktmarine1999)** — part of the [Ember OS](https://ktmarine1999.medium.com/i-built-an-ai-operating-system-in-obsidian-so-my-game-dev-hours-actually-count-441c2ce19606) series.
 
